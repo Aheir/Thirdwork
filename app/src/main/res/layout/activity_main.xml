@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--bind按钮-->
+    <Button
+        android:id="@+id/bBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="绑定Service"
+        android:textColor="#202020"/>
+
+    <!--unbind按钮-->
+    <Button
+        android:id="@+id/unbBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bBtn"
+        android:text="解除绑定"
+        android:textColor="#202020" />
+
+    <!--getServiceStatus按钮-->
+    <Button
+        android:id="@+id/gsBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/unbBtn"
+        android:text="获取Service状态"
+        android:textColor="#202020"/>
+</RelativeLayout>
